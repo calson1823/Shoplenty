@@ -1,0 +1,70 @@
+h1#heading1{
+    text-align: center;
+    color: red;
+}
+#p1{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.one{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#mydiv{
+    background-color: aqua;
+    margin: 100px;
+    padding: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+#test{
+    background-color: darkgray;
+    margin: 50px;
+    padding: 30px;
+    display: flex;
+    color: white;
+}
+
+#test p{
+    margin-left: 30px;
+}
+
+#test img{
+    border-radius: 500px;
+    width: 200px;
+    height: 150px;
+}
+
+#main{
+    display: flex;
+}
+
+#advertisement{
+    padding: 20px;
+    background-color: dodgerblue;
+    box-shadow: 12px 12px 12px 12px grey;
+    color: white;
+}
+
+#accounting{
+    padding: 20px;
+    margin-left: 50px;
+    background-color: darkkhaki;
+    box-shadow: 12px 12px 12px 12px grey;
+    color: white;
+}
+
+#payment{
+    padding: 20px;
+    margin-left: 50px;
+    background-color: darkgray;
+    box-shadow: 12px 12px 12px 12px grey;
+    color: white;
+}
+
+#advertisement:hover,#accounting:hover,#payment:hover{
+    background-color: cadetblue;
+}
